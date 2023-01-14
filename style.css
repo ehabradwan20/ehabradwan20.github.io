@@ -1,6 +1,4 @@
-/***********/
-/* GENERAL */
-/***********/
+
 
 * {
     margin: 0;
@@ -25,7 +23,7 @@ body {
     color: #555;
 }
 
-/* Wrapper */
+
 .wrapper {
     width: 1000px;
     position: absolute;
@@ -37,7 +35,6 @@ body {
     overflow: hidden;
 }
 
-/* Panels */
 .player-0-panel,
 .player-1-panel {
     width: 50%;
@@ -46,9 +43,6 @@ body {
     padding: 100px;
 }
 
-/***********/
-/* PLAYERS */
-/***********/
 
 .player-name {
     font-size: 40px;
@@ -126,7 +120,6 @@ button:focus {
     outline: none;
 }
 
-/* Icons */
 i {
     color: #EB4D4D;
     display: inline-block;
@@ -156,11 +149,9 @@ i {
 #dice1 { top: 120px; }
 #dice2 { top: 250px; }
 
-/* Winner status */ 
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
 
-/* Winning score input */
 #winningScore {
     position: absolute;
     top: 520px;
